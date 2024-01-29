@@ -97,6 +97,13 @@
     flex-basis: 100%;
         margin-bottom: 30px;
    }
+
+   .section__tittle h2{
+        font-size: 25px;      
+    }
+    .software{
+        text-align: center;
+    }
 }
 
 @media (min-width: 855px) and (max-width: 1190px){
@@ -126,4 +133,7 @@
             font-size: 20px;
         }
     }
+    .contact__box:last-child{
+        width:  80px;
+  }
 }
