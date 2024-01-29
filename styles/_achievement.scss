@@ -1,0 +1,49 @@
+.achievement{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
+    color: $text-color;
+        &__box1{
+            flex-basis: 40%;     
+            &img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        &__box2{
+            flex-basis: 46%;     
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            text-align: center;
+            justify-content: space-between;
+            &__section{
+                flex-basis: 48%;     
+                padding: 40px 30px;
+                color: $text-color;
+                border-radius: 5px;
+                transition: $transition;
+                margin-bottom: 15px;
+                &:hover{
+                    transform: scale(1.05) ;
+                    cursor: pointer;
+                }
+            }        
+        }
+    }
+    .one{
+        background-color: #EAA023;
+    }
+    .two{
+        background-color: #E91E63;
+    }
+    .three{
+        background-color: rgba(255, 68, 0, 0.948);
+    }
+    .four{
+        background-color: #2dc7a0a2;
+    }

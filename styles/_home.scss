@@ -1,0 +1,37 @@
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    color: $text-color;
+
+    &__section{
+        flex-basis: 45%;
+        &__tittle{
+            font-size: $tittle;
+            color: $aqua;
+        }
+        &__tittle-2{
+            color: $pink;
+        }
+        &__text{
+            font-size: 25px;
+            margin-bottom: 12px;
+        }
+        &__button{
+            background: $aqua;
+            padding: 12px 28px;
+            border-radius: 20px;
+            text-transform: uppercase;
+            color: $text-color;
+            font-weight: 700;
+            border: 1px solid $aqua;
+            cursor: pointer;
+            transition: all .3s ease;
+            &:hover{
+                background: transparent;
+            }
+        }
+    }
+}

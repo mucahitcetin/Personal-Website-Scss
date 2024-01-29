@@ -1,0 +1,35 @@
+.software{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
+    color: $text-color;
+    align-content: center;
+        &__box{
+            flex-basis: 31%;
+            padding: 25px 20px;
+            background:rgba(55, 66, 80, .281) ;
+            border-radius: 5px;
+            border: 1px solid transparent;
+            transition: $transition;
+            cursor: pointer;
+            &:hover{
+                border: 1px solid $aqua;
+                box-shadow: 5px 5px 5px 0 $aqua;
+            }
+            &__icon{
+                font-size: 25px;
+                color: $aqua;
+            }
+            &__tittle{
+                font-size: 20px;
+                margin: 5px 0;
+            }
+            &__text{
+                font-size: 16px;
+            }
+        }   
+}
+

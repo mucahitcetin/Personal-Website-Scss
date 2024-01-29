@@ -1,0 +1,48 @@
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
+    color: $text-color;
+    align-content: center;
+    &__box{
+        flex-basis: 46%;
+        margin-bottom: 30px;
+      & form{
+        padding: 50px 40px;
+        background: #2F363E;
+        border-radius: 5px;
+        & input, textarea{
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: none;
+            resize: none;
+            background: #24292D;
+            border-radius: 25px;
+            transition: all .3s ease-in;
+            &:focus{
+                color: #fff;  
+                letter-spacing: 1px;
+            }
+        }
+        & input:last-child{
+            margin-bottom: 0;
+            background: $aqua;
+            padding: 12px 28px;
+            border-radius: 20px;
+            text-transform: uppercase;
+            color: $text-color;
+            font-weight: 700;
+            border: 1px solid $aqua;
+            cursor: pointer;
+            transition: all .3s ease;
+            &:hover{
+                background: transparent;
+            }
+        }
+      }
+    }
+}

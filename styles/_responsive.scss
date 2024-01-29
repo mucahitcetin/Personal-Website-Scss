@@ -1,0 +1,129 @@
+@media screen and (max-width: 855px) {
+    .nav {
+        width: 90%;     
+        &__logo {
+        font-size: 20px;   
+        }
+    }
+    .nav__list{
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        padding: 0;
+        background: #24292D;
+        } 
+        .nav__link:hover{
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+    #menu_bar{
+        display: grid;
+        color: #fff;
+        cursor: pointer;
+        position: absolute;
+        right: 5%;
+        top: 10%;
+        width: 50px;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+        font-size: 30px;
+    }
+
+    .home{
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+
+    .home__section{
+        text-align: center;
+        flex-basis: 100%;
+        &__tittle {
+            font-size: 30px;
+        }
+        &__text {
+            font-size: 20px;
+        }
+    }
+
+    .software__box{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+    .certificate{
+        display: flex;
+        justify-content: center;
+    }
+    .certificate__box{
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        flex-basis: 50%;
+        margin-bottom: 30px;
+    }
+
+    .achievement{
+        display: flex;
+        justify-content: center;
+    }
+    .achievement__box1{
+        flex-basis: 70%;
+        margin-bottom: 30px;
+    }
+    .achievement__box2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .achievement__box2__section{
+        flex-basis: 90%;
+    }
+    .contact{
+        display: flex;
+        justify-content: center;
+    }
+    .contact__box{
+        flex-basis: 70%;
+        margin-bottom: 30px;
+    }
+
+   .footer__box{
+    flex-basis: 100%;
+        margin-bottom: 30px;
+   }
+}
+
+@media (min-width: 855px) and (max-width: 1190px){
+
+    .nav{
+        width: 100%;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    }
+    .nav__logo{
+        font-size: 18px;
+        white-space: nowrap;
+     
+    }
+    .nav__list{
+        font-size: 14px;
+        margin-top: 6px;
+    }
+
+    .home__section{
+        
+        &__tittle {
+            font-size: 30px;
+        }
+        &__text {
+            font-size: 20px;
+        }
+    }
+}
